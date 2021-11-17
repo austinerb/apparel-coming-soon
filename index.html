@@ -5,29 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/scripts.js" charset="utf-8"></script>
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
+  <div class="content-container">
 
-  We're coming soon
+    <div class="logo-mobile">
+      <img src="images/logo.svg" alt="">
+    </div>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <div class="hero-mobile"></div>
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <div class="content">
+      <div class="logo-desktop">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="coming-soon">
+        <h1><span>We're</span> Coming Soon</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <form>
+          <input class="email" type="text" name="" value="" placeholder="Email Address">
+          <input type="image" src="images/icon-arrow.svg">
+          <img class="error-icon" src="images/icon-error.svg" alt="">
+        </form>
+        <p class="error-msg">Please provide a valid email</p>
+      </div>
+    </div>
+
+    <div class="hero-desktop"></div>
+
+  </div>
+
 </body>
 </html>
